@@ -24,8 +24,8 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 id="city"></h1>
-            <p>
+            <h1 class="current-city" id="city"></h1>
+            <p class="weather-app-details">
               <span id="time"></span>,
               <span id="description"></span>
               <br />
@@ -34,8 +34,9 @@
             </p>
           </div>
           <div class="temperature">
-            <span class="icon">☀️</span> <span class="value" id="value"></span
-            ><span class="unit">°C</span>
+            <div class="icon" id="icon"></div>
+            <div class="value" id="value"></div>
+            <div class="unit">°C</div>
           </div>
         </div>
       </main>
