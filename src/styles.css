@@ -44,6 +44,7 @@ a {
 .current-weather {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .weather-app-details {
@@ -58,7 +59,7 @@ a {
 }
 
 .temperature {
-  display: block;
+  display: flex;
 }
 
 .search-input {
@@ -72,6 +73,7 @@ a {
 }
 
 .search-button {
+  width: 105px;
   margin-left: 10px;
   font-size: 16px;
   background-color: #098ba1;
@@ -82,6 +84,7 @@ a {
 }
 
 .icon {
+  display: block;
   width: 88px;
   height: 88px;
 }
