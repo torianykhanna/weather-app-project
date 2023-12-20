@@ -12,10 +12,6 @@ body {
   box-shadow: 0 25px 60px rgba(65, 50, 100, 0.08);
 }
 
-header {
-  padding-bottom: 25px;
-}
-
 form {
   display: block;
   margin-top: 0;
@@ -27,7 +23,6 @@ main {
 
 footer {
   text-align: center;
-  padding-top: 20px;
   color: #231e3a66;
 }
 
@@ -87,6 +82,7 @@ a {
   display: block;
   width: 88px;
   height: 88px;
+  padding-right: 10px;
 }
 
 .value {
