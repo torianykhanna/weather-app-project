@@ -100,4 +100,4 @@ function displayForecast(response) {
 let formSearch = document.querySelector("#search-form");
 formSearch.addEventListener("submit", searchSubmit);
 
-searchCity("Paris");
+searchCity("London");
